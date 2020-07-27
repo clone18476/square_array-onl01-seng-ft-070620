@@ -1,7 +1,7 @@
 def square_array(array)    #define method with argument of array 
   arr = []     #set arr to value of [] (an empty array) 
   array.each { |i| arr << i ** 2 }      #use .each to square the value of `array`, and then assign the squared value to an array called `arr`
-  arr
+  arr      # calls the full array that the value is pushed into
 end
 
 my_arr = [1, 2]
