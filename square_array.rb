@@ -1,6 +1,6 @@
-def square_array(array)
-  arr = []
-  array.each { |i| arr << i ** 2 }
+def square_array(array)    #define method with argument of array 
+  arr = []     #set arr to value of [] (an empty array) 
+  array.each { |i| arr << i ** 2 }      #use each to square 
   arr
 end
 
